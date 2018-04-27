@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:18.04
 MAINTAINER Shawn Jonnet <sjonnet@gmail.com>
 RUN apt-get update
 RUN apt-get -y install curl build-essential libssl-dev
