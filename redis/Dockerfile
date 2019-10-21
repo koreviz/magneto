@@ -1,4 +1,4 @@
-FROM ubuntu:19.04
+FROM ubuntu:19.10
 MAINTAINER Shawn Jonnet <sjonnet@gmail.com>
 RUN apt-get update
 RUN apt-get -y install curl build-essential libssl-dev
