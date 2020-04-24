@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:20.04
 MAINTAINER Shawn Jonnet <sjonnet@gmail.com>
 RUN apt update
 RUN apt install -y curl
